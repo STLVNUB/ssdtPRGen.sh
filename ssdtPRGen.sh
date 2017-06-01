@@ -21,7 +21,8 @@
 # set -x # Used for tracing errors (can be used anywhere in the script).
 
 #================================= GLOBAL VARS ==================================
-
+# lets cd to its own folso we can run script easier ;)
+cd $(dirname "$")
 #
 # Script version info.
 #
